@@ -303,10 +303,10 @@ class Form extends Injectable implements \Countable, \Iterator, \Phalcon\Html\At
      * Renders a specific item in the form
      *
      * @param string $name
-     * @param array $attributes
+     * @param ?array $attributes
      * @return string
      */
-    public function render(string $name, array $attributes = array()): string
+    public function render(string $name, ?array $attributes = array()): string
     {
     }
 
